@@ -14,12 +14,9 @@
  export default {
   name: 'App',
   computed: {
-    tasks () {
-      console.log(this.$store.state.tasks[0].id)
+    tasks: function () {
       return this.$store.state.tasks
     },
   },
-  
  }
- 
 </script>
