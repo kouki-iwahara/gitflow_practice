@@ -31,7 +31,6 @@ export default new Vuex.Store({
       })
       // 次に追加されるタスクに追加されるidを更新
       state.nextTaskId++
-      console.log()
     },
     // タスクの完了状態を更新
     toggleTaskStatus: function(state, { id }){
