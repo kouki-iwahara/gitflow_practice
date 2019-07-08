@@ -109,10 +109,12 @@
         filter: labelId
       })
     },
+    // 現在の状態を保存する
     save: function() {
       // 'sava'actionをコミット
       this.$store.dispatch('save')
     },
+    // 保存されている状態を復元する
     restore: function() {
       // 'restore'actionをコミット
       this.$store.dispatch('restore')
